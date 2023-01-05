@@ -47,7 +47,7 @@ function Home() {
               <h1 className="home__text pz__10">Hello</h1>
               <h3 className="home__text pz__10">I’m Akash praveen</h3>
               <h3 className="home__text  pz__10">Front-end Developer.</h3>
-              <h5 className="home__text pz__10">Currently studying full stack web development</h5>
+              <h5 className="home__text pz__10">Currently focused on full stack web development</h5>
             </div>
           </div>
         </div>
