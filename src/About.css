@@ -1,0 +1,57 @@
+.about{
+    background: whitesmoke;
+}
+img.about__img{
+    border-radius: 10px;
+    width: 100%;
+}
+h1.about__heading{
+    margin-bottom: 10px;
+    font-weight: 700;
+    text-align: start;
+    font-family: Montserrat,sans-serif;
+    font-size: 60px;
+    color:black;
+}
+
+.about__text{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a.bottom__to__top{
+    height: 40px;
+    width: 40px;
+    position: fixed;
+    bottom: 3%;
+    right: 2%;
+    background-color: rgba(8, 109, 204, 0.808);
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    transition: .4s all ease;
+    z-index: 1000;
+}
+a.bottom__to__top.active{
+    display: flex;
+}
+
+.btn{
+    width: 120px;
+    height: 40px;
+    background-color: dodgerblue;
+    color:white;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+/* RESPONSIVE */
+@media only screen and (max-width: 1024px){
+    .p__color{
+        font-size: 15px!important;
+    }
+}
