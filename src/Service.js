@@ -93,7 +93,7 @@ function Service() {
 
 
           <div className="col__3">
-            <div className="service__box pointer" style={{padding: "20px 20px 0px 20px"}}>
+            <div className="service__box pointer" >
               <div className="icon">
               <img src="https://cdn.iconscout.com/icon/free/png-256/git-225996.png" alt="Girl in a jacket" width="60px" height="50px"/>
               </div>

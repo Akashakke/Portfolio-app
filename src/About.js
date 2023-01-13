@@ -1,5 +1,7 @@
 import React from "react";
 import "./About.css";
+import mern from './img/mern-stack-developer.gif'
+
 
 function About() {
   //  Up To Top Btn
@@ -13,7 +15,7 @@ function About() {
         <div className="row">
           <div className="col__2">
             <img
-              src="https://media.istockphoto.com/id/947663966/vector/programming-design-concept.jpg?s=612x612&w=0&k=20&c=7ACckqE60fQkt8yLlFEkcVuhoBZWwwfUhyA2XaOZrGQ="
+              src={mern}
               alt=""
               className="about__img"
             />

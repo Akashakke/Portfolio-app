@@ -1,5 +1,6 @@
 import React, {useState} from "react";
 import "./Home.css";
+import { TypeAnimation } from 'react-type-animation';
 
 
 function Home() {
@@ -46,8 +47,31 @@ function Home() {
             <div className="home__meta">
               <h1 className="home__text pz__10">Hello</h1>
               <h3 className="home__text pz__10">I’m Akash praveen</h3>
-              <h3 className="home__text  pz__10">Front-end Developer.</h3>
-              <h5 className="home__text pz__10">Currently focused on full stack web development</h5>
+
+              <div className="typing">
+      <TypeAnimation
+      sequence={[
+        'Frontend developer', // Types 'One'
+        2000, // Waits 2s
+        'MERN stack developer', // Deletes 'One' and types 'Two'
+        2000, // Waits 2s
+        'Full stack developer', // Types 'Three' without deleting 'Two'
+        5000,
+        () => {
+          console.log('Done typing!'); // Place optional callbacks anywhere in the array
+        }
+      ]}
+      wrapper="div"
+      cursor={true}
+      repeat={Infinity}
+      style={{ fontSize: '3em',fontWeight:'bold' }}
+    />
+
+    
+
+</div>
+
+
             </div>
           </div>
         </div>
