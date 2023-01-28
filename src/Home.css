@@ -1,10 +1,16 @@
 .home__bg{
-    background-image: url(https://img.freepik.com/premium-vector/purple-web-development-background_76964-167.jpg?w=900);
+    background-image: url(https://www.arkasoftwares.com/blog/wp-content/uploads/2021/01/header_banner-6.jpg);
     background-color: #010101;
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover;
 }
+@media screen and (max-width: 600px) {
+    .home__bg{
+        flex: 100%;
+    max-width: 100%;
+    }
+  }
 li.nav__items{
     font-size: 18px;
     padding-bottom: 15px;

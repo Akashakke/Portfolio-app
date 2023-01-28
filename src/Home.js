@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React from "react";
 import "./Home.css";
 import { TypeAnimation } from 'react-type-animation';
 
@@ -10,7 +10,7 @@ function Home() {
     header.classList.toggle("active", window.scrollY > 0);
   });
   // Toogle Menu
-   const [show, setShow] = useState(true);
+   
   return (
     <div className="home" id="Home">
       <div className="home__bg">
@@ -64,7 +64,7 @@ function Home() {
       wrapper="div"
       cursor={true}
       repeat={Infinity}
-      style={{ fontSize: '3em',fontWeight:'bold' }}
+      style={{ fontSize: '2.5em',fontWeight:'bold' }}
     />
 
     
