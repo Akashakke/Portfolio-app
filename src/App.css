@@ -148,7 +148,9 @@ span.copyright {
 }
 
 
-
+html{
+  scroll-behavior: smooth;
+}
 
 
 

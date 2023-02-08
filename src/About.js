@@ -33,7 +33,7 @@ function About() {
               <p className="about__text "></p>
               <p className="about__text "></p>
               <div>
-                <a href="https://drive.google.com/file/d/14P-Dsft7DcopECIhZ0XpS-CMtCnBnG86/view?usp=sharing">
+                <a href="https://drive.google.com/file/d/1KHdVhNN-3g3SFEP8rMJ03pt6Au-nH2Gj/view?usp=sharing" target="_blank">
                   <button className="btn btn-warning">Download Resume</button>
                 </a>
               </div>

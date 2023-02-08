@@ -23,7 +23,7 @@ function Project() {
                      <div className="project__meta absolute">
                      <h5 className="project__text">E-commerce App</h5>
                      <h4 className="project__text">Using MERN Stack</h4>
-                     <a href="https://digi-world.netlify.app/" className="project__btn">View</a>
+                     <a href="https://digi-world.netlify.app/" className="project__btn" target="_blank">View</a>
                      </div>
                  </div>
              </div>
@@ -40,7 +40,7 @@ function Project() {
                      <div className="project__meta absolute">
                      <h5 className="project__text">Social Media App</h5>
                      <h4 className="project__text">Using MERN Stack</h4>
-                     <a href="https://connect-ezru.onrender.com" className="project__btn">View</a>
+                     <a href="https://connect-ezru.onrender.com" className="project__btn" target="_blank">View</a>
                      </div>
                  </div>
              </div>
