@@ -20,6 +20,7 @@ function About() {
               className="about__img"
             />
           </div>
+  
           <div className="col__2">
             <h1 className="about__heading">About Me</h1>
             <div className="about__meta">
@@ -34,7 +35,7 @@ function About() {
               <p className="about__text "></p>
               <div>
                 <a href="https://drive.google.com/file/d/1KHdVhNN-3g3SFEP8rMJ03pt6Au-nH2Gj/view?usp=sharing" target="_blank">
-                  <button className="btn btn-warning">Download Resume</button>
+                  <button type="button" class="btn btn-outline-dark">Download Resume</button>
                 </a>
               </div>
             </div>
