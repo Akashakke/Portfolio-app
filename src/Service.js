@@ -16,7 +16,7 @@ function Service() {
           <div className="col__3">
             <div className="service__box pointer">
               <div className="icon">
-                <img src="https://cdn.iconscout.com/icon/free/png-256/html5-40-1175193.png" 
+                <img src="images/html.png" 
                 alt="" width="80px" height="50px" /> 
               </div>
               <div className="service__meta">

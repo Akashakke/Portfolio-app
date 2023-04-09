@@ -16,7 +16,7 @@ function Home() {
       <div className="home__bg">
         <div className="header d__flex align__items__center pxy__30">
           <div className="logo">
-            <img src='https://cdn.iconscout.com/icon/free/png-256/web-development-5363139-4488928.png' alt="" width="50px" height="50px" />
+            <img src='images/6674627.png' alt="" width="50px" height="50px" />
           </div>
           <div className="navigation pxy__30">
             <ul className="navbar d__flex">
@@ -70,9 +70,7 @@ function Home() {
     
 
 </div>
-
-
-            </div>
+  </div>
           </div>
         </div>
       </div>
