@@ -8,7 +8,7 @@ img.project__img {
     transition: .4s;
     opacity: .7;
     position: relative;
-    filter: brightness(70%);
+    filter: brightness(50%);
 }
 img.project__img::after{
     content: '';

@@ -11,19 +11,13 @@ function Contact() {
               <h1 className="hire__text">Contact me</h1>
               <p className="hire__text black">Feel free to connect with me </p>
               <p className="hire__text black">
-                {" "}
-                <a href="tel:9047346659">
-                  <img
-                    src="https://cdn.iconscout.com/icon/premium/png-256-thumb/phone-173-103873.png"
-                    width="40px"
-                    height="40px"
-                  />
-                </a>{" "}
+           
                 <a href="mailto:rakashpraveen@karunya.edu.in">
                   <img
                     src="https://cdn.iconscout.com/icon/free/png-256/gmail-2981844-2476484.png"
                     width="40px"
                     height="40px"
+                    alt="email"
                   />
                 </a>
               </p>

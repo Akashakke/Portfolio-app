@@ -1,6 +1,7 @@
 import React from "react";
 import "./Project.css";
-
+import ecommerce from './img/ecommerce.jpg'
+import connect from './img/connect.jpg'
 
 function Project() {
   return (
@@ -16,14 +17,14 @@ function Project() {
                  <div className="project__box pointer relative">
                      <div className="project__box__img pointer relative">
                          <div className="project__img__box">
-                             <img src="https://www.warehouseanywhere.com/resources/history-future-and-trends-of-e-commerce/warehouse-anywhere-history-future-ecommerce-1.jpg" alt="" className="project__img"  width="80px" height="200px" />
+                             <img src={ecommerce} alt="" className="project__img"  width="80px" height="200px" />
                          </div>
                          <div className="mask__effect"></div>
                      </div>
                      <div className="project__meta absolute">
                      <h5 className="project__text">E-commerce App</h5>
                      <h4 className="project__text">Using MERN Stack</h4>
-                     <a href="https://digi-world.netlify.app/" className="project__btn" target="_blank">View</a>
+                     <a href="https://digi-world.vercel.app/" className="project__btn" target="_blank" rel="noreferrer" >View</a>
                      </div>
                  </div>
              </div>
@@ -33,14 +34,14 @@ function Project() {
                  <div className="project__box pointer relative">
                      <div className="project__box__img pointer relative">
                          <div className="project__img__box">
-                             <img src="https://media.istockphoto.com/id/1344724504/photo/user-based-blockchain-futuristic-technology-backgrounds.jpg?b=1&s=170667a&w=0&k=20&c=TyjtjWyzpmtZL8G-NaxiyFEN7mEtyVTnEEJ56nXNPYY=" alt="" className="project__img" width="80px" height="200px"/>
+                             <img src={connect} alt="" className="project__img" width="80px" height="200px"/>
                          </div>
                          <div className="mask__effect"></div>
                      </div>
                      <div className="project__meta absolute">
                      <h5 className="project__text">Social Media App</h5>
                      <h4 className="project__text">Using MERN Stack</h4>
-                     <a href="https://connect-ezru.onrender.com" className="project__btn" target="_blank">View</a>
+                     <a href="https://connect-eight-tau.vercel.app/" className="project__btn" target="_blank" rel="noreferrer" >View</a>
                      </div>
                  </div>
              </div>
