@@ -41,7 +41,7 @@ a.bottom__to__top.active{
 .btn{
     width: 150px;
     height: 40px;
-    background-color: dodgerblue;
+    background-color: rgb(5, 83, 161);
     color:white;
     border-radius: 5px;
     font-family: Arial, Helvetica, sans-serif;
