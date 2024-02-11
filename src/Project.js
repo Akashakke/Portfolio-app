@@ -29,7 +29,7 @@ function Project() {
                 <h5 className="project__text">E-commerce</h5>
                 <h4 className="project__text">MERN Stack</h4>
                 <a
-                  href="https://digi-world.vercel.app/"
+                  href="https://digi-world-vite.vercel.app"
                   className="project__btn"
                   target="_blank"
                   rel="noreferrer"
@@ -37,13 +37,21 @@ function Project() {
                   View
                 </a>
                 <div className="srclinks">
-                  <a href="https://github.com/Akashakke/DIgital-world-master" target="_blank" rel="noreferrer">
+                  <a
+                    href="https://github.com/Akashakke/DIgital-world-master"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     <div>
                       <img src={git} alt=""></img>
                     </div>
                     <p>Frontend</p>
                   </a>
-                  <a href="https://github.com/Akashakke/guvi-hackathon2-backend" target="_blank" rel="noreferrer">
+                  <a
+                    href="https://github.com/Akashakke/guvi-hackathon2-backend"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     <div>
                       <img src={git} alt=""></img>
                     </div>
@@ -80,13 +88,21 @@ function Project() {
                   View
                 </a>
                 <div className="srclinks">
-                  <a href="https://github.com/Akashakke/Connect" target="_blank" rel="noreferrer">
+                  <a
+                    href="https://github.com/Akashakke/Connect"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     <div>
                       <img src={git} alt=""></img>
                     </div>
                     <p>Frontend</p>
                   </a>
-                  <a href="https://github.com/Akashakke/connect-server" target="_blank" rel="noreferrer">
+                  <a
+                    href="https://github.com/Akashakke/connect-server"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     <div>
                       <img src={git} alt=""></img>
                     </div>
